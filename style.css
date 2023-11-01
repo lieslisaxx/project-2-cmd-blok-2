@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: lightgreen;
+  background-color: blanchedalmond;
 }
 header,
 footer {
@@ -20,6 +20,11 @@ main {
   margin-bottom: 100px;
 }
 
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
 nav {
   display: flex;
   padding: 5px;
@@ -29,21 +34,4 @@ nav {
   width: 100vw;
   text-decoration: none;
   background-color: pink;
-}
-
-.navbar {
-  padding: 10px;
-  position: relative;
-  display: flex;
-  width: 100%;
-}
-
-.navbar,
-ul,
-li {
-  display: inline-block;
-}
-
-.btn {
-  display: inline-block;
 }
