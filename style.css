@@ -6,3 +6,21 @@ header,
 footer {
   background-color: #ccc;
 }
+footer,
+.push {
+  height: 100px;
+}
+
+main {
+  min-height: 100vh;
+  margin-bottom: 100px;
+}
+
+nav {
+  display: flex;
+  padding: 5px;
+  margin: 2px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
