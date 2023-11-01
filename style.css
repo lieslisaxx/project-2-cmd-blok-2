@@ -2,10 +2,14 @@
   margin: 0;
 }
 
+body {
+  background-color: lightgreen;
+}
 header,
 footer {
-  background-color: #ccc;
+  background-color: palevioletred;
 }
+
 footer,
 .push {
   height: 100px;
@@ -23,4 +27,23 @@ nav {
   position: fixed;
   bottom: 0;
   width: 100vw;
+  text-decoration: none;
+  background-color: pink;
+}
+
+.navbar {
+  padding: 10px;
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.navbar,
+ul,
+li {
+  display: inline-block;
+}
+
+.btn {
+  display: inline-block;
 }
