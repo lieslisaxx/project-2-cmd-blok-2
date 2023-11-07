@@ -3,7 +3,8 @@
 }
 
 body {
-  background-color: blanchedalmond;
+  background-image: url ("/img/homepage.svg");
+  background-repeat: none;
 }
 header,
 footer {
@@ -34,4 +35,19 @@ nav {
   width: 100vw;
   text-decoration: none;
   background-color: pink;
+}
+
+.div {
+  width: auto;
+  height: 900px;
+  border: 1px solid grey;
+  margin: 0;
+  background-color: red;
+  background-image: url("/img/web2.png");
+  display: none;
+}
+
+body {
+  background-image: url("/img/web2.png");
+  background-repeat: no-repeat;
 }
