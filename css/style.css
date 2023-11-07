@@ -4,7 +4,7 @@
 
 header,
 footer {
-  background-color: palevioletred;
+  background-color: green;
 }
 
 footer,
@@ -17,6 +17,11 @@ main {
   margin-bottom: 100px;
 }
 
+nav,
+ul,
+a {
+  list-style-type: none;
+}
 a {
   text-decoration: none;
   font-size: 20px;
@@ -30,7 +35,7 @@ nav {
   bottom: 0;
   width: 100vw;
   text-decoration: none;
-  background-color: pink;
+  background-color: palevioletred;
 }
 
 .flower1 {
@@ -56,4 +61,18 @@ body {
   background-color: red;
   background-image: url("/img/bloem.png");
   display: none;
+}
+
+/* Button listen*/
+.btn {
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 0.5rem;
+  font-size: 18px;
+  font-weight: 300px;
+  transition: al 0.4s ease;
+  background: pink;
+  color: black;
+  border: 1px solid white;
+  margin: 3px;
 }
