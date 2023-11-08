@@ -44,12 +44,12 @@ nav {
   border: 1px solid grey;
   margin: 0;
   background-color: red;
-  background-image: url("/img/web2.png");
+  background-image: url("../img/web2.png");
   display: none;
 }
 
 body {
-  background-image: url("/img/web2.png");
+  background-image: url("../img/web2.png");
   background-repeat: no-repeat;
 }
 
@@ -59,7 +59,7 @@ body {
   border: 1px solid grey;
   margin: 0;
   background-color: red;
-  background-image: url("/img/bloem.png");
+  background-image: url("../img/bloem.png");
   display: none;
 }
 
