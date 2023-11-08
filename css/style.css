@@ -84,6 +84,8 @@ body {
   margin: 0;
   background-color: lightpink;
   border: 5px solid white;
+  top: 50%;
+  left: 50%;
 }
 
 .boxvideo2 {
@@ -93,4 +95,5 @@ body {
   margin: 0;
   background-color: lightpink;
   border: 5px solid white;
+  float: left;
 }
