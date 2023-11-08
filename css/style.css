@@ -78,22 +78,28 @@ body {
 }
 
 .boxvideo1 {
-  width: 150px;
+  width: 100px;
   height: 70px;
   padding: 10px;
   margin: 0;
   background-color: lightpink;
   border: 5px solid white;
-  top: 50%;
-  left: 50%;
 }
 
 .boxvideo2 {
-  width: 150px;
+  width: 100px;
   height: 70px;
   padding: 10px;
   margin: 0;
   background-color: lightpink;
   border: 5px solid white;
   float: left;
+}
+
+img {
+  width: 30%;
+  height: 100px;
+  /* with this you can cover your image full stretch */
+  object-fit: cover;
+  opacity: 1;
 }
