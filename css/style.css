@@ -76,3 +76,21 @@ body {
   border: 1px solid white;
   margin: 3px;
 }
+
+.boxvideo1 {
+  width: 150px;
+  height: 70px;
+  padding: 10px;
+  margin: 0;
+  background-color: lightpink;
+  border: 5px solid white;
+}
+
+.boxvideo2 {
+  width: 150px;
+  height: 70px;
+  padding: 10px;
+  margin: 0;
+  background-color: lightpink;
+  border: 5px solid white;
+}
