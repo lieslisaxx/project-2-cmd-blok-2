@@ -95,11 +95,3 @@ body {
   border: 5px solid white;
   float: left;
 }
-
-img {
-  width: 30%;
-  height: 100px;
-  /* with this you can cover your image full stretch */
-  object-fit: cover;
-  opacity: 1;
-}
